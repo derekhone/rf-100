@@ -43,7 +43,7 @@ thresholds, and velocity limits.
 ## Documents
 
 - [`RF-100-v0.9-draft.pdf`](./RF-100-v0.9-draft.pdf) — the full draft standard
-- Archived / citable version: Zenodo DOI — [LINK AFTER ZENODO UPLOAD]
+- Archived / citable version: Zenodo DOI — - Archived / citable version: [https://doi.org/10.5281/zenodo.21366342](https://doi.org/10.5281/zenodo.21366342)
 
 ## How to Review / Comment
 
