@@ -4,15 +4,28 @@
 
 > "If it cannot be verified, it cannot execute."
 
+---
+
+> ## RF-100 v1.0 — Public Review Draft
+>
+> **Status: Draft; not yet a final standard or certification program.**
+>
+> This version incorporates findings from two independent structured-review
+> memoranda. Publication does not imply endorsement, certification, or
+> implementation conformance by any reviewer or outside organization.
+
+---
+
 ## Status
 
-- **Current Version:** v1.0 — UNIFIED DRAFT (second-pass corrected)
-- **Published:** July 2026
+- **Current Version:** v1.0 — Public Review Draft (second-pass corrected)
+- **Published:** July 2026 (public review draft)
 - **Publisher:** Remnant Fieldworks Inc.
 - **Built on:** RF-000 (Proof Before Power™ Doctrine, published)
 - **Certification:** None exists yet. RF-101 (assessment) and RF-102
   (certification) are under development. No party may claim RF-100
-  certification or formal conformance at this maturity level.
+  certification or formal conformance at this maturity level. This draft is
+  not final, frozen, certified, or approved by any external organization.
 
 **Review history:**
 - v0.9 (July 15, 2026): public draft
@@ -76,6 +89,12 @@ gets attacked.
 - Not a certification program (yet)
 - Not legal or compliance advice
 - Not a claim that any deployed system currently conforms
+- ExecutionProof™ does not yet claim full RF-100 conformance. Asymmetric
+  (8.4-conformant) signing and other required controls are not yet
+  operational; a conformance claim will follow only when they are.
+- No reviewer or outside organization has endorsed, certified, or approved
+  this draft. Independent review findings were incorporated; that is not
+  endorsement.
 
 ## License & Notices
 
