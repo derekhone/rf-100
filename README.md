@@ -68,6 +68,7 @@ The standard specifies requirements for governing consequential actions ("Govern
 ## Documents
 
 - **Current:** [`RF-100-v1.0-draft.pdf`](./RF-100-v1.0-draft.pdf) ([markdown](./RF-100-v1.0-draft.md)) — v1.0 unified draft, second-pass corrected
+- **IPR commitment (draft):** [`IPR-COMMITMENT.md`](./IPR-COMMITMENT.md) — intended patent posture (royalty-free, scoped, reciprocal); draft pending counsel review
 - **Prior version:** [`RF-100-v0.9-draft.pdf`](./RF-100-v0.9-draft.pdf) — v0.9 public draft
 - **Archived / citable versions:** [Zenodo concept DOI 10.5281/zenodo.21366341](https://doi.org/10.5281/zenodo.21366341) (stable link across all versions)
 
@@ -106,7 +107,18 @@ Fieldworks trademarks, service marks, certification marks, software, hosted
 services, APIs, trade secrets, or patents — all of which are reserved.
 
 Remnant Fieldworks™, Proof Before Power™, Verification Before Execution™,
-ExecutionProof™, and ProofRecord™ are trademarks or pending trademarks of
-Remnant Fieldworks Inc. U.S. patent applications pending.
+ExecutionProof™, VaultProof™, and ProofRecord™ are trademarks or pending
+trademarks of Remnant Fieldworks Inc. U.S. patent applications pending.
+
+**Patent / IPR commitment (draft).** A draft IPR commitment describing the
+intended patent posture — a **royalty-free, scoped, reciprocal (defensive)
+non-assertion covenant** for conforming implementations, with all rights
+reserved for trademarks, products, hosted services, reference code, and the
+certification program — is published as
+[`IPR-COMMITMENT.md`](./IPR-COMMITMENT.md). It is a **draft pending legal /
+patent counsel review**; the binding version will be finalized before any
+certification program (RF-101 / RF-102) launches. In short: **anyone may
+implement RF-100 freely; no one may copy the ExecutionProof/VaultProof
+products, brands, or certification authority.**
 
 **Contact:** derek@ownerremnantfieldworks.com
