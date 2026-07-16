@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you reference or build on RF-100, please cite it as below."
+title: "RF-100 — ExecutionProof Governance Standard (v0.9 Draft)"
+abstract: >-
+  RF-100 defines the minimum normative structure a high-consequence system
+  (AI agent, automated workflow, financial execution system, infrastructure
+  controller) must satisfy before a governed action executes. It specifies ten
+  elements as numbered RFC 2119 requirements, plus the RF-100:AI conformance
+  profile for AI agents and autonomous systems. This is a public draft for
+  review; no certification program exists yet.
+type: standard
+version: "0.9-draft"
+date-released: "2026-07-01"
+license: "LicenseRef-All-Rights-Reserved"
+url: "https://github.com/derekhone/rf-100"
+repository-code: "https://github.com/derekhone/rf-100"
+doi: "10.5281/zenodo.21366342"
+authors:
+  - family-names: Hone
+    given-names: Derek
+    affiliation: "Remnant Fieldworks Inc."
+    email: "derek@ownerremnantfieldworks.com"
+keywords:
+  - execution governance
+  - AI agent safety
+  - verification before execution
+  - pre-execution control
+  - high-consequence systems
+  - RFC 2119
