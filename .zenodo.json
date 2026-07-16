@@ -1,10 +1,10 @@
 {
-  "title": "RF-100 — ExecutionProof Governance Standard (v0.9 Draft)",
-  "description": "RF-100 defines the minimum normative structure a high-consequence system (AI agent, automated workflow, financial execution system, infrastructure controller) must satisfy before a governed action executes. It specifies ten elements expressed as numbered RFC 2119 requirements, plus the RF-100:AI conformance profile for AI agents and autonomous systems. This is a public draft for review and critique; no certification program exists yet, and no claim of conformance is made. Published by Remnant Fieldworks Inc. under the Proof Before Power doctrine.",
+  "title": "RF-100 — Verified Execution Governance Standard (v1.0 Draft)",
+  "description": "RF-100 defines requirements for governing consequential actions proposed by human or AI Actors, such that no Governed Action takes effect without independent verification of authority, evidence, policy compliance, and system state, and such that every decision is durably and verifiably recorded. The central architectural premise: the proposing Actor is precisely the component that cannot be trusted to self-govern. v1.0 integrates structured peer review findings (G-01 through G-18) and second-pass corrections (F-01 through F-06) from James A. Bex, BxTech Systems Solutions LLC (July 2026). Published by Remnant Fieldworks Inc. under the Proof Before Power doctrine. This is a public draft; no certification program exists yet.",
   "upload_type": "publication",
   "publication_type": "standard",
   "access_right": "open",
-  "version": "0.9-draft",
+  "version": "1.0-draft",
   "keywords": [
     "execution governance",
     "AI agent safety",
@@ -13,7 +13,12 @@
     "high-consequence systems",
     "RFC 2119",
     "proof before power",
-    "governance standard"
+    "governance standard",
+    "verification decision record",
+    "enforcement architecture",
+    "chained agents",
+    "multi-agent governance",
+    "adversary model"
   ],
   "creators": [
     {
@@ -26,6 +31,19 @@
       "identifier": "https://github.com/derekhone/rf-100",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.21386123",
+      "relation": "isReferencedBy",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bex, James A.",
+      "type": "Reviewer",
+      "affiliation": "BxTech Systems Solutions LLC"
     }
   ]
 }
