@@ -1,20 +1,21 @@
 cff-version: 1.2.0
 message: "If you reference or build on RF-100, please cite it as below."
-title: "RF-100 — ExecutionProof Governance Standard (v0.9 Draft)"
+title: "RF-100 — Verified Execution Governance Standard (v1.0 Public Review Draft)"
 abstract: >-
   RF-100 defines the minimum normative structure a high-consequence system
   (AI agent, automated workflow, financial execution system, infrastructure
-  controller) must satisfy before a governed action executes. It specifies ten
-  elements as numbered RFC 2119 requirements, plus the RF-100:AI conformance
-  profile for AI agents and autonomous systems. This is a public draft for
-  review; no certification program exists yet.
+  controller) must satisfy before a governed action executes. It specifies the
+  normative elements as numbered RFC 2119 requirements, plus the RF-100:AI
+  conformance profile for AI agents and autonomous systems. This is a public
+  review draft; it is not a final standard, not certified, and not endorsed by
+  any reviewer or outside organization. No certification program exists yet.
 type: standard
-version: "0.9-draft"
-date-released: "2026-07-01"
-license: "LicenseRef-All-Rights-Reserved"
+version: "1.0-public-review-draft"
+date-released: "2026-07-16"
+license: "CC-BY-4.0"
 url: "https://github.com/derekhone/rf-100"
 repository-code: "https://github.com/derekhone/rf-100"
-doi: "10.5281/zenodo.21366342"
+doi: "10.5281/zenodo.21366341"
 authors:
   - family-names: Hone
     given-names: Derek

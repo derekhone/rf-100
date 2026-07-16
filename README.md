@@ -98,8 +98,13 @@ gets attacked.
 
 ## License & Notices
 
-© 2026 Remnant Fieldworks Inc. All rights reserved. The text of this draft
-may be quoted and cited for review and critique purposes.
+© 2026 Remnant Fieldworks Inc. The **text of the RF-100 specification** is
+released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
+effective with this v1.0 release (see Section 0.1). This license applies
+**only** to the specification text and grants **no** rights to Remnant
+Fieldworks trademarks, service marks, certification marks, software, hosted
+services, APIs, trade secrets, or patents — all of which are reserved.
+
 Remnant Fieldworks™, Proof Before Power™, Verification Before Execution™,
 ExecutionProof™, and ProofRecord™ are trademarks or pending trademarks of
 Remnant Fieldworks Inc. U.S. patent applications pending.
