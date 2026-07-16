@@ -1,4 +1,4 @@
-# RF-100 — ExecutionProof Governance Standard (v0.9 DRAFT)
+# RF-100 — Verified Execution Governance Standard
 
 **Verification-first execution control for high-consequence systems.**
 
@@ -6,7 +6,7 @@
 
 ## Status
 
-- **Version:** v0.9 — PUBLIC DRAFT FOR REVIEW
+- **Current Version:** v1.0 — UNIFIED DRAFT (second-pass corrected)
 - **Published:** July 2026
 - **Publisher:** Remnant Fieldworks Inc.
 - **Built on:** RF-000 (Proof Before Power™ Doctrine, published)
@@ -14,36 +14,49 @@
   (certification) are under development. No party may claim RF-100
   certification or formal conformance at this maturity level.
 
+**Review history:**
+- v0.9 (July 15, 2026): public draft
+- v1.0 unified draft (July 15, 2026): integrated structured peer review findings G-01 through G-18 (James A. Bex, BxTech Systems Solutions LLC)
+- v1.0 second-pass corrected (July 16, 2026): integrated second-pass findings F-01 through F-06
+
 ## What RF-100 Is
 
 RF-100 defines the minimum normative structure a high-consequence system —
 AI agent, automated workflow, financial execution system, infrastructure
 controller — MUST satisfy **before** a governed action executes.
 
-It specifies ten elements, expressed as 39 numbered core requirements in
-RFC 2119 (MUST/SHOULD/MAY) language, plus nine additional requirements in
-the RF-100:AI conformance profile (Annex A):
+The standard specifies requirements for governing consequential actions ("Governed Actions") proposed by human or AI Actors, such that:
+- No Governed Action takes effect without independent verification of authority, evidence, policy compliance, and system state
+- Every decision is durably and verifiably recorded
+- The proposing Actor cannot modify the verification gate, policy, evidence, or decision
 
-1. Actor Identity
-2. Authority (capability ≠ authority; self-approval blocking)
-3. Policy
-4. Evidence (stale evidence = absent; fail to HOLD/DENY)
-5. System State (fail-closed)
-6. Risk
-7. Decision (ALLOW / HOLD / DENY — always before execution)
-8. Proof Record (signed, tamper-evident, generated pre-execution)
-9. Execution Outcome
-10. Review Path
+**Core elements (Sections 1-13):**
+1. Policy and Execution Boundary Profile (EBP)
+2. Evidence
+3. Verification and Decision Inputs
+4. Authority
+5. Decisions: Rendering, Validity, and Failure Posture
+6. Verification Decision Records (VDRs)
+7. Execution Integrity
+8. Auditability and Reconstruction
+9. Enforcement Architecture (E1/E2/E3)
+10. Gate Governance
+11. Trusted Time
 
-**Annex A** defines RF-100:AI, a conformance profile for AI agents and
-autonomous systems, including agent-distinct identity, per-tool scoped
-authority, extended self-approval blocking, intent records, consequence
-thresholds, and velocity limits.
+**AI Actor Profile (RF-100:AI)** defines elevated requirements for AI agents and autonomous systems, including:
+- Agent identity (model/version/lineage in every VDR)
+- Scoped capability and authority
+- Intent Records (untrusted context, never Evidence)
+- Consequence thresholds and velocity limits
+- Prompt/input-injection detection
+- Chained-agent per-hop governance
+- Model/prompt-update re-versioning and re-evaluation
 
 ## Documents
 
-- [`RF-100-v0.9-draft.pdf`](./RF-100-v0.9-draft.pdf) — the full draft standard
-- Archived / citable version: [https://doi.org/10.5281/zenodo.21366342](https://doi.org/10.5281/zenodo.21366342)
+- **Current:** [`RF-100-v1.0-draft.pdf`](./RF-100-v1.0-draft.pdf) ([markdown](./RF-100-v1.0-draft.md)) — v1.0 unified draft, second-pass corrected
+- **Prior version:** [`RF-100-v0.9-draft.pdf`](./RF-100-v0.9-draft.pdf) — v0.9 public draft
+- **Archived / citable versions:** [Zenodo concept DOI 10.5281/zenodo.21366341](https://doi.org/10.5281/zenodo.21366341) (stable link across all versions)
 
 ## How to Review / Comment
 
