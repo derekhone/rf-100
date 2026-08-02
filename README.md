@@ -90,9 +90,11 @@ gets attacked.
 - Not a certification program (yet)
 - Not legal or compliance advice
 - Not a claim that any deployed system currently conforms
-- ExecutionProof™ does not yet claim full RF-100 conformance. Asymmetric
-  (8.4-conformant) signing and other required controls are not yet
-  operational; a conformance claim will follow only when they are.
+- ExecutionProof™ does not yet claim full RF-100 conformance. ExecutionProof
+  has implemented and internally verified hardware-backed ML-DSA-65 signing for
+  newly generated ProofRecords using AWS KMS, but a formal RF-100 §8.4
+  conformance claim remains pending independent external review and any other
+  required controls assessment.
 - No reviewer or outside organization has endorsed, certified, or approved
   this draft. Independent review findings were incorporated; that is not
   endorsement.
