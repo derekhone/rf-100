@@ -1,19 +1,22 @@
 {
-  "title": "RF-100 — Verified Execution Governance Standard (v1.0 Public Review Draft)",
+  "title": "RF-100: Verified Execution Governance Standard",
   "description": "RF-100 defines requirements for governing consequential actions proposed by human or AI Actors, such that no Governed Action takes effect without independent verification of authority, evidence, policy compliance, and system state, and such that every decision is durably and verifiably recorded. The central architectural premise: the proposing Actor is precisely the component that cannot be trusted to self-govern. v1.0 integrates structured peer review findings (G-01 through G-18) and second-pass corrections (F-01 through F-06) from two independent structured-review memoranda by James A. Bex, BxTech Systems Solutions LLC (July 2026). Published by Remnant Fieldworks Inc. under the Proof Before Power doctrine. STATUS: This is a public review draft — not a final standard, not frozen, not certified, and not approved or endorsed by any reviewer or outside organization. Incorporation of independent review findings does not constitute endorsement. No certification program exists yet, and no deployed system (including ExecutionProof) is claimed to be RF-100 conformant at this maturity level.",
   "upload_type": "publication",
   "publication_type": "standard",
   "access_right": "open",
   "license": "cc-by-4.0",
-  "version": "1.0-public-review-draft",
+  "version": "1.0-public-review",
   "keywords": [
+    "AI governance",
     "execution governance",
-    "AI agent safety",
+    "AI agents",
     "verification before execution",
+    "Proof Before Power",
+    "RF-100",
+    "ProofRecord",
     "pre-execution control",
     "high-consequence systems",
     "RFC 2119",
-    "proof before power",
     "governance standard",
     "verification decision record",
     "enforcement architecture",
@@ -23,7 +26,7 @@
   ],
   "creators": [
     {
-      "name": "Hone, Derek",
+      "name": "Hone, Derek Adam",
       "affiliation": "Remnant Fieldworks Inc."
     }
   ],
