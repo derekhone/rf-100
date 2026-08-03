@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you reference or build on RF-100, please cite it as below."
-title: "RF-100 — Verified Execution Governance Standard (v1.0 Public Review Draft)"
+title: "RF-100: Verified Execution Governance Standard"
 abstract: >-
   RF-100 defines the minimum normative structure a high-consequence system
   (AI agent, automated workflow, financial execution system, infrastructure
@@ -10,7 +10,7 @@ abstract: >-
   review draft; it is not a final standard, not certified, and not endorsed by
   any reviewer or outside organization. No certification program exists yet.
 type: standard
-version: "1.0-public-review-draft"
+version: "1.0-public-review"
 date-released: "2026-07-16"
 license: "CC-BY-4.0"
 url: "https://github.com/derekhone/rf-100"
@@ -18,13 +18,17 @@ repository-code: "https://github.com/derekhone/rf-100"
 doi: "10.5281/zenodo.21366341"
 authors:
   - family-names: Hone
-    given-names: Derek
+    given-names: Derek Adam
     affiliation: "Remnant Fieldworks Inc."
     email: "derek@ownerremnantfieldworks.com"
 keywords:
+  - AI governance
   - execution governance
-  - AI agent safety
+  - AI agents
   - verification before execution
+  - Proof Before Power
+  - RF-100
+  - ProofRecord
   - pre-execution control
   - high-consequence systems
   - RFC 2119

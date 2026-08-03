@@ -72,6 +72,23 @@ The standard specifies requirements for governing consequential actions ("Govern
 - **Prior version:** [`RF-100-v0.9-draft.pdf`](./RF-100-v0.9-draft.pdf) — v0.9 public draft
 - **Archived / citable versions:** [Zenodo concept DOI 10.5281/zenodo.21366341](https://doi.org/10.5281/zenodo.21366341) (stable link across all versions)
 
+## RF-100 Policy Briefs
+
+### Policy Brief No. 1 — AI's Two-Person Rule
+
+A verified quorum protocol for irreversible AI decisions.
+
+[Read the PDF](policy-briefs/RF-100-Policy-Brief-01-AI-Two-Person-Rule.pdf) ([markdown](policy-briefs/RF-100-Policy-Brief-01-AI-Two-Person-Rule.md))
+
+This brief proposes independently verifiable quorum authorization,
+tamper-evident ProofRecords, and ALLOW / HOLD / DENY enforcement
+for high-consequence AI execution. It applies RF-100:AI.9 (no
+self-authorization), RF-100:AI.11 (a second approver of distinct
+base-model lineage, or a human), RF-100.6.2 (independently
+authenticated, recorded approvals), and RF-100:AI.8a (no borrowed
+approval across a multi-agent chain), backed by corpus experiments
+ARK-443 (two-of-three quorum) and ARK-496 (self-approval defense).
+
 ## How to Review / Comment
 
 This draft is open for public review. The draft is strongest where it
