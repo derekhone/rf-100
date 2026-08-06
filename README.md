@@ -1,3 +1,9 @@
+> **Repository Role:** Reference Standard — RF-100 Pre-Execution Control Standard · Part of the [Remnant Fieldworks](https://remnantfieldworks.com) research and product ecosystem
+
+**Where this fits:** [ExecutionProof](https://executionproof.io) is an independent pre-execution governance layer for consequential AI actions — returning ALLOW / HOLD / DENY before Stripe or any downstream system is ever called. Payment authorization is the first production deployment boundary; the same architecture governs infrastructure commands, data release, access changes, and other irreversible actions. This repository defines the RF-100 verification standard that underpins the ExecutionProof product.
+
+---
+
 # RF-100 — Verified Execution Governance Standard
 
 **Verification-first execution control for high-consequence systems.**
