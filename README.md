@@ -147,3 +147,7 @@ implement RF-100 freely; no one may copy the ExecutionProof/VaultProof
 products, brands, or certification authority.**
 
 **Contact:** derek@ownerremnantfieldworks.com
+
+### License scope clarification
+
+The CC BY 4.0 statement above concerns specification text. It is not a license to absent product source, hosted-service access, brands or private production material. IPR-COMMITMENT.md remains a separate draft pending counsel review; it is not made binding by this notice. Historical draft wording, release files and existing grants remain intact. This clarification does not assert patent clearance or formal product conformance.
